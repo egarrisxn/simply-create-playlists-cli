@@ -1,7 +1,7 @@
 {
   "name": "simply-create-playlists-cli",
   "version": "1.0.0",
-  "description": "This CLI application will simplify the process of creating playlists. More details coming soon!",
+  "description": "This CLI will simplify the process of creating playlists. More details coming soon!",
   "type": "module",
   "license": "MIT",
   "bin": {
