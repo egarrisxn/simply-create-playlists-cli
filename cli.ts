@@ -5,7 +5,7 @@ import { run } from "./index.js";
 const program = new Command();
 
 program
-  .name("simply-create-playlists")
+  .name("simply-create-playlists-cli")
   .description("Create a Spotify playlist from an Artist - Album list")
   .argument("[listPath]", "Path to list file", "playlist.txt")
   .option("-n, --name <string>", "Playlist name", "Simply Created Playlist")

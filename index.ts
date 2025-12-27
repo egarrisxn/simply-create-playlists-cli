@@ -366,7 +366,7 @@ export async function run(opts: RunOptions) {
         const override = overrides[key];
         if (override) {
           albumId = albumIdFromOverride(override);
-          process.stdout.write("OVERRIDE ");
+          process.stdout.write("OVERRIDE");
         } else {
           const found = await searchAlbum(tokens.access_token, artist, album);
           if (!found) {
