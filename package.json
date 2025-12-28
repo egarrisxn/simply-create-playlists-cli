@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "This CLI will simplify the process of creating playlists. More details coming soon!",
   "type": "module",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egarrisxn/simply-create-playlists-cli.git"
+  },
+  "homepage": "https://github.com/egarrisxn/simply-create-playlists-cli#readme",
+  "bugs": {
+    "url": "https://github.com/egarrisxn/simply-create-playlists-cli/issues"
+  },
   "bin": {
     "simply-create-playlists-cli": "./dist/cli.js"
   },
@@ -12,6 +19,7 @@
     "README.md",
     "LICENSE"
   ],
+  "license": "MIT",
   "scripts": {
     "dev": "tsx cli.ts",
     "build": "tsc -p tsconfig.build.json",
