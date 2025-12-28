@@ -12,7 +12,7 @@
     "url": "https://github.com/egarrisxn/simply-create-playlists-cli/issues"
   },
   "bin": {
-    "simply-create-playlists-cli": "./dist/cli.js"
+    "simply-create-playlists-cli": "dist/cli.js"
   },
   "files": [
     "dist",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "tsx cli.ts",
-    "build": "tsc -p tsconfig.build.json",
+    "build": "tsc -p tsconfig.build.json && node scripts/add-shebang.mjs",
     "start": "tsx cli.ts"
   },
   "dependencies": {
